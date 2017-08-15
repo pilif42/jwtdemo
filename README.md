@@ -16,5 +16,5 @@ curl http://localhost:8080/users -v -X GET
 curl  -H "Accept: application/json" -H "Content-Type: application/json" http://localhost:8080/login -v -X POST  -d "{\"username\":\"admin\",\"password\":\"testMe\"}"
 200 Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTUwMjk2ODEzNn0.Ad-nSxg9VMhoWr5MWof3QhFS-fP1Otx5gbAAyDg89uXqgCJcZMqTkX6jS1ivuzUt8XvU2AGS_99Ot5p-_8pZmg
 
-curl -H "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTUwMjk2ODEzNn0.Ad-nSxg9VMhoWr5MWof3QhFS-fP1Otx5gbAAyDg89uXqgCJcZMqTkX6jS1ivuzUt8XvU2AGS_99Ot5p-_8pZmg" http://localhost:8080/users -v -X GET
+curl -H "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTUwMzY2Njc1NH0.J95yDZNq8GmJ8axu0DOJr1Dvx0dNkPfA8bZ0clS5ZPp_uShBFmBUl9HylvwTymQkiDTZmF6VzMG9egxvCVkL8w" http://localhost:8080/users -v -X GET
 200 {"users":[{"firstname":"Richard", "lastname":"Feynman"},{"firstname":"Marie","lastname":"Curie"}]}
